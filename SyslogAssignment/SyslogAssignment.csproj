@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="Data\" />
       <Folder Include="Shared\" />
+      <Folder Include="Sockets\" />
     </ItemGroup>
 
 </Project>
