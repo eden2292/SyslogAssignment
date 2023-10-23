@@ -8,25 +8,25 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\EdenP\\.nuget\\packages\\": {}
+    "/Users/eden/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\OneDrive\\Documents\\Projects\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
+      "projectUniqueName": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj",
       "projectName": "SyslogAssignment",
-      "projectPath": "A:\\OneDrive\\Documents\\Projects\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
-      "packagesPath": "C:\\Users\\EdenP\\.nuget\\packages\\",
-      "outputPath": "A:\\OneDrive\\Documents\\Projects\\SyslogAssignment\\SyslogAssignment\\obj\\",
+      "projectPath": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj",
+      "packagesPath": "/Users/eden/.nuget/packages/",
+      "outputPath": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EdenP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/eden/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Users\\EdenP\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\EdenP\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
