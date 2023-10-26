@@ -4,7 +4,5 @@
 /// </summary>
 interface IRadio
 {
-  string ChangeIpv4Address();
-  string ChangeIpv6Address();
-  int ChangePortNum();
+
 }

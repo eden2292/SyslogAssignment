@@ -7,11 +7,11 @@ namespace SyslogAssignment.Classes;
 /// </summary>
 public class T6S3 : IRadio
 {
-  public const int DEFAULT_PORT_NUM = 514;
-  public const string DEFAULT_IP4_ADDRESS = "127.0.0.1";
-  public string? _ip4Address { get; set; }
-  public string? _ip6Address { get; set; }
-  public int _portNumber { get; set; }
+  private const int DEFAULT_PORT_NUM = 514;
+  private const string DEFAULT_IP4_ADDRESS = "127.0.0.1";
+  private string? _ip4Address { get; }
+  private string? _ip6Address { get; }
+  private int _portNumber { get; }
 
   public T6S3()
   {
