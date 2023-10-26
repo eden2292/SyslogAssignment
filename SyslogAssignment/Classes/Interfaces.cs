@@ -6,3 +6,8 @@ interface IRadio
 {
 
 }
+interface IListeningSocket
+{
+  bool BeginListening();
+  bool EndListening();
+}

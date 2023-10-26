@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj": {}
+    "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj": {}
   },
   "projects": {
-    "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj": {
+    "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
         "projectName": "SyslogAssignment",
-        "projectPath": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/SyslogAssignment.csproj",
-        "packagesPath": "/Users/eden/.nuget/packages/",
-        "outputPath": "/Users/eden/RiderProjects/SyslogAssignment/SyslogAssignment/obj/",
+        "projectPath": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
+        "packagesPath": "C:\\Users\\raffi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/eden/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\raffi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

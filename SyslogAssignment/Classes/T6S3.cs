@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.Forms;
+using static SyslogAssignment.Classes.GlobalConstants;
 
 namespace SyslogAssignment.Classes;
 
@@ -7,15 +8,14 @@ namespace SyslogAssignment.Classes;
 /// </summary>
 public class T6S3 : IRadio
 {
-  private const int DEFAULT_PORT_NUM = 514;
-  private const string DEFAULT_IP4_ADDRESS = "127.0.0.1";
-  private string? _ip4Address { get; }
-  private string? _ip6Address { get; }
-  private int _portNumber { get; }
+  
+  public string? Ip4Address { get; set; }
+ // public string? Ip6Address { get; set; }
+  public int PortNumber { get; set; }
 
   public T6S3()
   {
-    _portNumber = DEFAULT_PORT_NUM;
-    _ip4Address = DEFAULT_IP4_ADDRESS;
+    PortNumber = DEFAULT_PORT_NUM;
+    Ip4Address = DEFAULT_IP4_ADDRESS;
   }
 }

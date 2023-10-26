@@ -1,6 +1,6 @@
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.csproj.AssemblyReference.cache
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.AssemblyInfoInputs.cache
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.AssemblyInfo.cs
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.csproj.CoreCompileInputs.cache
-C:\Users\raffi\Source\Repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.csproj.AssemblyReference.cache
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.AssemblyInfoInputs.cache
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.AssemblyInfo.cs
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.csproj.CoreCompileInputs.cache
+C:\Users\raffi\source\repos\eden2292\SyslogAssignment\SyslogAssignment\obj\Debug\net7.0\SyslogAssignment.MvcApplicationPartsAssemblyInfo.cache
