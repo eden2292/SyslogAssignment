@@ -32,7 +32,7 @@ namespace SyslogAssignment.Classes
         IPEndPoint _sourceInformation = _waitingToReceiveMessage.RemoteEndPoint;
         if (_continue)
         {
-          Console.WriteLine()
+          Console.WriteLine();
         } 
       }
     }

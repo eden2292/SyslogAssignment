@@ -1215,23 +1215,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raffi\\.nuget\\packages\\": {},
+    "C:\\Users\\ac1904\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
+      "projectUniqueName": "K:\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
       "projectName": "SyslogAssignment",
-      "projectPath": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
-      "packagesPath": "C:\\Users\\raffi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raffi\\source\\repos\\eden2292\\SyslogAssignment\\SyslogAssignment\\obj\\",
+      "projectPath": "K:\\SyslogAssignment\\SyslogAssignment\\SyslogAssignment.csproj",
+      "packagesPath": "C:\\Users\\ac1904\\.nuget\\packages\\",
+      "outputPath": "K:\\SyslogAssignment\\SyslogAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\raffi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ac1904\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1240,7 +1240,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1283,7 +1282,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
