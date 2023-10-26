@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SyslogAssignment",
+    "\\SyslogAssignment\\Classes"
   ],
+  "SelectedNode": "\\SyslogAssignment\\Classes\\Interfaces.cs",
   "PreviewInSolutionExplorer": false
 }
