@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ah23UqdFi+j4d7q89P8jxYhNgNd+TG7xdvDHqAheGW8=",
+  "Hash": "+WQQRS2796bxXA/Q3YR3lz0jOj7UWxoBoV/T7b579Jc=",
   "Source": "SyslogAssignment",
   "BasePath": "_content/SyslogAssignment",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SyslogAssignment\\wwwroot",
       "Source": "SyslogAssignment",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\css\\site.css",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\favicon.png",
       "SourceId": "SyslogAssignment",
       "SourceType": "Discovered",
-      "ContentRoot": "K:\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wahal\\source\\repos\\SyslogAssignment\\SyslogAssignment\\wwwroot\\",
       "BasePath": "_content/SyslogAssignment",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
