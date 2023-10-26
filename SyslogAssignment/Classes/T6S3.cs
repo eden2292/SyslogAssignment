@@ -6,7 +6,7 @@ namespace SyslogAssignment.Classes;
 /// <summary>
 /// Object of T6S3 radio containing relevant information for sockets. 
 /// </summary>
-public class T6S3 : IRadio
+public class T6S3
 {
   
   public string? Ip4Address { get; set; }

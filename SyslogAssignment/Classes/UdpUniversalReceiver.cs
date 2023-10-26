@@ -4,6 +4,9 @@ using System.Text;
 using static SyslogAssignment.Classes.GlobalConstants;
 namespace SyslogAssignment.Classes
 {
+  /// <summary>
+  /// Listens to all pings to the local host
+  /// </summary>
   public class UdpUniversalReceiver
   {
     public UdpClient LocalClient { get; set; }
@@ -15,9 +18,11 @@ namespace SyslogAssignment.Classes
       LocalClient = new UdpClient(portNumber);
 
       LocalHostIpAddress = IPAddress.Parse(IpAddress);
+
+
     }
 
-    public async void StartListening() //we need to have a stop listening and we also need a way to listen on local host
+    public async void StartListening()
     {
       _continue = true;
       while (_continue)
@@ -25,6 +30,10 @@ namespace SyslogAssignment.Classes
         UdpReceiveResult _waitingToReceiveMessage = await LocalClient.ReceiveAsync();
         byte[] _receivedMessage = _waitingToReceiveMessage.Buffer;
         IPEndPoint _sourceInformation = _waitingToReceiveMessage.RemoteEndPoint;
+        if (_continue)
+        {
+          Console.WriteLine()
+        } 
       }
     }
     public async void StopListening()
