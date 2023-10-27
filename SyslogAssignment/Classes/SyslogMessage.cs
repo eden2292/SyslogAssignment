@@ -4,12 +4,23 @@ using System.Security.Cryptography.X509Certificates;
 
 public class SyslogMessage
 {
-  private byte Priority { get; set; } // The priority number which we can derive the facility and severity from
-  private byte Facility
-  { get { return 0; } } // Placeholder for the formula
-	private byte Severtiy
-  { get { return 0; } } // Placeholder for the formula
-  private string SenderIP;
+  public byte Priority { get; private set; } // The priority number which we can derive the facility and severity from
+  // Note: We could use enums for Facility and Severity for easier readability
+  public byte Facility
+  { 
+    get
+    {
+      return (byte)(Priority / 8); 
+    }
+  }
+	public byte Severity
+  { 
+    get 
+    { 
+      return (byte)(Priority % 8); 
+    }
+  }
+  public string SenderIP { get; set; }
 	private DateTimeOffset? SentDateTime { get; set; } // The date/time in the syslog message itself, can be null if the format in the syslog message fails to parse
   private DateTimeOffset ReceivedDateTime { get; set; } // The date/time when the message was received, using .NET DateTime.Now when the remote store gets the message
 	private string FullMessage { get; set; } // The full syslog message
@@ -22,12 +33,12 @@ public class SyslogMessage
 
 
   /// <summary>
-  /// Parses text Syslog messages into a Message object
+  /// Parses Syslog message strings and extracts the fields needed for a SyslogMessage object
   /// </summary>
-  /// <param name="fullMessage">The full Syslog message</param>
   /// <returns>Boolean for if the parse is successful</returns>
-  public bool ParseMessage(string fullMessage)
+  public bool ParseMessage()
   {
+    string fullMessage = FullMessage;
     bool messageParsedSuccessfully = false;
 
     if(fullMessage[0] == '<')
@@ -38,6 +49,11 @@ public class SyslogMessage
     return messageParsedSuccessfully;
   }
 
+  /// <summary>
+  /// (Part of ParseMessage) Finds where the end arrow position of the priority is
+  /// </summary>
+  /// <param>The full syslog message</param>
+  /// <returns>Boolean for if the parse is successful</returns>
   private bool ParseEndArrowPosition(string fullMessage)
   {
     bool messageParsedSuccessfully = false;
@@ -58,6 +74,12 @@ public class SyslogMessage
     return messageParsedSuccessfully;
   }
 
+  /// <summary>
+  /// (Part of ParseMessage) Finds what the priority of the syslog message is, sets the Priority field of the object accordingly
+  /// </summary>
+  /// <param>The full syslog message</param>
+  /// <param>The position of the end arrow of the priority</param>
+  /// <returns>Boolean for if the parse is successful</returns>
   private bool ParsePriority(string fullMessage, int endArrowPosition)
   {
     bool messageParsedSuccessfully = false;
@@ -81,6 +103,12 @@ public class SyslogMessage
     return messageParsedSuccessfully;
   }
 
+  /// <summary>
+  /// (Part of ParseMessage) Finds what the version of the syslog message is (unneeded, this is just so we can get to the datetime)
+  /// </summary>
+  /// <param>The full syslog message</param>
+  /// <param>The position of the end arrow of the priority</param>
+  /// <returns>Boolean for if the parse is successful</returns>
   private bool ParseSyslogVersion(string fullMessage, int endArrowPosition)
   {
     bool dateTimeParsedSuccessfully = false;
@@ -103,6 +131,11 @@ public class SyslogMessage
     return dateTimeParsedSuccessfully;
   }
 
+  /// <summary>
+  /// (Part of ParseMessage) Finds what the date and time of the syslog message is, sets the SentDateTime field of the object accordingly
+  /// </summary>
+  /// <param>The syslog message without the priority or version</param>
+  /// <returns>Boolean for if the parse is successful</returns>
   private bool ParseDateTime(string syslogMessageFromDateTime)
   {
     bool dateTimeParsedSuccessfully = false;
