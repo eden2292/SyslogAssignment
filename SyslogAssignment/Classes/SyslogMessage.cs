@@ -13,7 +13,7 @@ public class SyslogMessage
       return (byte)(Priority / 8); 
     }
   }
-	public byte Severity
+  public byte Severity
   { 
     get 
     { 
@@ -21,15 +21,15 @@ public class SyslogMessage
     }
   }
   public string SenderIP { get; set; }
-	private DateTimeOffset? SentDateTime { get; set; } // The date/time in the syslog message itself, can be null if the format in the syslog message fails to parse
+  private DateTimeOffset? SentDateTime { get; set; } // The date/time in the syslog message itself, can be null if the format in the syslog message fails to parse
   private DateTimeOffset ReceivedDateTime { get; set; } // The date/time when the message was received, using .NET DateTime.Now when the remote store gets the message
-	private string FullMessage { get; set; } // The full syslog message
-	public SyslogMessage(string senderIp, DateTime receivedDateTime, string fullMessage)
-	{
+  private string FullMessage { get; set; } // The full syslog message
+  public SyslogMessage(string senderIp, DateTime receivedDateTime, string fullMessage)
+  {
     SenderIP = senderIp;
     ReceivedDateTime = receivedDateTime;
-		FullMessage = fullMessage;
-	}
+    FullMessage = fullMessage;
+  }
 
 
   /// <summary>
